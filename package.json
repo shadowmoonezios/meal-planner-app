@@ -1,0 +1,16 @@
+{
+  "name": "meal-planner-app",
+  "version": "1.0.0",
+  "description": "Eine Anwendung zur Planung und Verwaltung von Mahlzeiten mit Rezeptvorschlägen und Einkaufsliste.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server/index.js",
+    "client": "npm start --prefix client",
+    "server": "node server/index.js",
+    "dev": "concurrently "npm run server" "npm run client""
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "concurrently": "^6.0.0"
+  }
+}
