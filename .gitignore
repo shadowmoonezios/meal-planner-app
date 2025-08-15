@@ -2,3 +2,5 @@
 node_modules/
 client/node_modules/
 built/
+# Fügen Sie zusätzlich die .env-Datei zur Ignorierliste hinzu, um Umgebungsvariablen zu schützen
+.env
