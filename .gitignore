@@ -1,3 +1,4 @@
+# Ignoriere Ordner für Abhängigkeiten und gebaute Dateien
 node_modules/
 client/node_modules/
 built/
